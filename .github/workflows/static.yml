@@ -24,14 +24,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-     
+      # Build Jekyll site (if needed)
       - name: Build Jekyll site
         run: |
           docker run \
             -v ${{ github.workspace }}:/srv/jekyll \
             -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
             jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
- 
+
+      # Copy static HTML
       - name: Copy static HTML
         run: |
           mkdir -p _site/front
@@ -43,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site   
+          path: _site # upload the _site directory
 
       - name: Deploy to GitHub Pages
         id: deployment
