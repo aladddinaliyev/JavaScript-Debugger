@@ -22,6 +22,8 @@
                                ▌▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▋ 
 
 ```
+
+<p style="text-aligne:center"
 <a href="https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html">
   <img src="https://img.shields.io/badge/JavaScript_Debugger-⚡_Open-blue?style=for-the-badge" />
 </a>
@@ -36,7 +38,7 @@
 
 [![Debugger](https://img.shields.io/badge/⚡_Open_Debugger-Glass_Style-6aa9ff?style=flat-square&logoColor=white)](https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html)
 
-
+</p>
 A powerful full-stack JavaScript analyzer with real-time syntax and bracket error detection.
 
 <p align="center">
