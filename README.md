@@ -23,7 +23,7 @@
 
 ```
 
-<p style="text-aligne:center"
+<p style="text-aligne:center">
 <a href="https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html">
   <img src="https://img.shields.io/badge/JavaScript_Debugger-⚡_Open-blue?style=for-the-badge" />
 </a>
