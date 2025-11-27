@@ -22,9 +22,9 @@
                                ▌▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▋ 
 
 ```
-<button style="padding:10px 20px; font-size:16px; border-radius:6px; background:#222; color:#fff; border:none; cursor:pointer">
-  ⚡ JavaScript Debugger
-</button>
+<a href="https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html">
+  <img src="https://img.shields.io/badge/JavaScript_Debugger-⚡_Open-blue?style=for-the-badge" />
+</a>
 
 
 
