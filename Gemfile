@@ -1,4 +1,4 @@
-name: Copy static HTML (if needed)
+name: Copy static HTML 
 run: |
 mkdir -p _site/front
 cp front/detrocelon.html _site/front/detrocelon.html
