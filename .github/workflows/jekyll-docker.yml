@@ -27,7 +27,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # You can use another version if needed
+          ruby-version: '3.1'
 
       - name: Install dependencies
         run: |
@@ -37,7 +37,7 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build --future
 
-      - name: Copy static HTML
+      - name: Copy static HTML (if needed)
         run: |
           mkdir -p _site/front
           cp front/detrocelon.html _site/front/detrocelon.html
