@@ -35,7 +35,7 @@ jobs:
           bundle install
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build --future
+        run: bundle exec jekyll build --future --trace
 
       - name: Copy static HTML (if needed)
         run: |
