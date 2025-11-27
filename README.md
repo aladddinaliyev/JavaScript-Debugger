@@ -30,6 +30,12 @@
 
 [![Debugger](https://img.shields.io/badge/JavaScript_Debugger-Open-ff69b4?style=plastic)](https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html)
 
+[![Open](https://img.shields.io/badge/⚡_Open-Debugger-brightgreen?style=for-the-badge)](https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html)
+
+[![Debugger](https://img.shields.io/badge/Start_Debugger-🔥-red?style=for-the-badge)](https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html)
+
+[![Debugger](https://img.shields.io/badge/⚡_Open_Debugger-Glass_Style-6aa9ff?style=flat-square&logoColor=white)](https://aladddinaliyev.github.io/JavaScript-Debugger/front/detrocelon.html)
+
 
 A powerful full-stack JavaScript analyzer with real-time syntax and bracket error detection.
 
