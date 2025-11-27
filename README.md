@@ -22,7 +22,12 @@
                                ▌▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▋ 
 
 ```
-# ⚡ JavaScript Debugger  
+<button style="padding:10px 20px; font-size:16px; border-radius:6px; background:#222; color:#fff; border:none; cursor:pointer">
+  ⚡ JavaScript Debugger
+</button>
+
+
+
 A powerful full-stack JavaScript analyzer with real-time syntax and bracket error detection.
 
 <p align="center">
