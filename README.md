@@ -46,6 +46,9 @@ A powerful full-stack JavaScript analyzer with real-time syntax and bracket erro
 
 > 🔽 Replace `demo/preview.gif` with your actual GIF path.
 
+
+## 🎬 Run Animated Banner
+
 ```bash
 nano jsdebugger.sh
 
