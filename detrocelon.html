@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Neon ASCII — detrocelon</title>
+<style>
+  :root{
+    --bg:#050505;
+    --mono: "Courier New", "Lucida Console", Monaco, monospace;
+  }
+  html,body{height:100%;}
+  body{
+    margin:0;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: radial-gradient(1200px 600px at 10% 10%, rgba(255,255,255,0.02), transparent 5%),
+                radial-gradient(1000px 500px at 90% 90%, rgba(0,255,255,0.02), transparent 5%),
+                var(--bg);
+    font-family:var(--mono);
+    -webkit-font-smoothing:antialiased;
+    color:#fff;
+  }
+
+  .wrap{
+    width:95%;
+    max-width:1400px;
+    margin: 22px;
+    text-align:center;
+  }
+
+  pre#art{
+    margin:0 auto;
+    display:inline-block;
+    padding:18px 22px;
+    border-radius:8px;
+    line-height:1;
+    font-size:12px;
+    letter-spacing:0;
+    white-space:pre;
+    text-align:left;
+    background: rgba(0,0,0,0.55);
+    box-shadow:
+      0 6px 30px rgba(0,0,0,0.6),
+      0 0 30px rgba(0,0,0,0.6) inset;
+    /* gradient text */
+    color: transparent; /* hide fallback color */
+    background-image: linear-gradient(90deg,
+       #ff2d55 0%,
+       #ff7a18 12%,
+       #ffd600 24%,
+       #00d28a 38%,
+       #00a7ff 52%,
+       #7a5cff 66%,
+       #ff2d55 80%,
+       #ff7a18 100%);
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slide 6s linear infinite;
+    text-shadow:
+      0 0 8px rgba(255,255,255,0.06),
+      0 0 18px rgba(0,0,0,0.7);
+  }
+
+  /* neon outer glow (applies on container behind text) */
+  .neon {
+    position: relative;
+  }
+  .neon::before{
+    content:"";
+    position:absolute;
+    inset:6px;
+    border-radius:6px;
+    background: linear-gradient(90deg, rgba(255,45,85,0.03), rgba(0,167,255,0.03));
+    filter: blur(18px);
+    z-index:-1;
+    pointer-events:none;
+  }
+
+  @keyframes slide{
+    0%{ background-position:0% 50%;}
+    50%{ background-position:100% 50%;}
+    100%{ background-position:0% 50%;}
+  }
+
+  /* Controls */
+  .controls{
+    margin:12px 0 6px;
+    display:flex;
+    gap:8px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .controls button, .controls input[type=range]{
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.06);
+    color:#ddd;
+    padding:8px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    font-family:var(--mono);
+  }
+  .controls label{ color:#bbb; font-size:13px; }
+  .small{ font-size:11px; padding:6px 8px; }
+
+  footer{ margin-top:10px; color:#777; font-size:12px; text-align:center;}
+  @media (max-width:700px){
+    pre#art{ font-size:8px; padding:12px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="neon">
+<pre id="art">
+                              ▂██████████████████████████████████▅                                
+                            ▄█▉▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏▏ ▍█▇ 
+                        ▎████▍                                      ▎████▍
+                       ▆▅▍▍▅█▍                                      ▎██▌▍▄▆         
+                       █▇  ▄█▍   ▂▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▂   ▏██▎ ▅█▎    
+                       █▇  ▄█▍   ▃██▃▂▂▂▂▇▆▂▂▂▂▆██████▄▂▂▂▂▂▃███▂    ██▎ ▅█▎                        
+                       █▇  ▄█▍   ▃██▍ ▃▃▃▇▂ ▊▃▃▆██████▋ ▃▃▃▃▄███▂    ██▎ ▅█▎                        
+                       █▇  ▄█▍   ▃██▍ ▄▄▄▇▂ ▊▄▄▄▃█████▋ ▄▄▄▇████▂    ██▎ ▅█▎                        
+                       █▇  ▄█▍   ▃██▍ ▁▁▁▆▂ ▌▁▁▌ ▇████▋ ▁▁▁▆████▂    ██▎ ▅█▎  
+                       █▇  ▄█▍   ▃██▍ ████▂ ▁██▉▏▇████▋ ████████▂    ██▎ ▅█▎                       
+                       █▇  ▄█▍   ▃██████████████████████████████▂    ██▎ ▅█▎
+                       █▇  ▄█▍   ▃██████████████████████████████▂    ██▎ ▅█
+                       █▇  ▄█▍                                       ██▎ ▅█▎                        
+                       █▇  ▄█▍                                       ██▎ ▅█▎
+                       █▇  ▏▏▄█▊                                  ▍▇▇▎▎▏ ▅█▍                        
+                       ▍▌▇▇▍ ▎▍▂▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▆▍▍  ▆▇▋▍▏                        
+                        ▏▍▍▄▅▋ ▍▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▋ ▎▅▅▌▍▏                          
+                           ▌▋▂▄▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▄▄▋▋▏
+                             ▋▉▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▉▉ 
+                               ▌▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▊▋ 
+</pre>
+    </div>
+
+    <div class="controls" aria-hidden="false">
+      <button id="pause" class="small">Pause</button>
+      <button id="resume" class="small">Resume</button>
+      <label class="small">Size: <input id="size" type="range" min="8" max="18" value="12"></label>
+      <button id="download" class="small">Download HTML</button>
+    </div>
+
+    <footer>Открой файл в браузере — цвета плавно переливаются. Нажми Pause/Resume либо сдвинь Size для масштаба.</footer>
+  </div>
+
+<script>
+const art = document.getElementById('art');
+const pauseBtn = document.getElementById('pause');
+const resumeBtn = document.getElementById('resume');
+const sizeRange = document.getElementById('size');
+const downloadBtn = document.getElementById('download');
+
+pauseBtn.addEventListener('click', ()=> {
+  art.style.animationPlayState = 'paused';
+});
+resumeBtn.addEventListener('click', ()=> {
+  art.style.animationPlayState = 'running';
+});
+sizeRange.addEventListener('input', (e)=>{
+  art.style.fontSize = e.target.value + 'px';
+});
+
+// download current HTML
+downloadBtn.addEventListener('click', ()=>{
+  const blob = new Blob([document.documentElement.outerHTML], {type:'text/html'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'detrocelon.html';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+</script>
+</body>
+</html>
