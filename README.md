@@ -29,16 +29,7 @@
 
 
 
-</p>
-A powerful full-stack JavaScript analyzer with real-time syntax and bracket error detection.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-Debugger-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/React-Frontend-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Babel-Parser-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/yourname/yourrepo?style=for-the-badge">
-</p>
 
 ---
 
@@ -206,6 +197,16 @@ For privacy, compliance, and digital accountability.
 ```
 
 
+</p>
+A powerful full-stack JavaScript analyzer with real-time syntax and bracket error detection.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-Debugger-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-Frontend-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Babel-Parser-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/yourname/yourrepo?style=for-the-badge">
+</p>
 
 
 
